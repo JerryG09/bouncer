@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './commons/header/Header'
+import Footer from './commons/footer/Footer'
 
 function App() {
   return (
     <div className="App">
-      <h1>Bouncer</h1>
+      <Header />
+      <Footer />
     </div>
   );
 }
