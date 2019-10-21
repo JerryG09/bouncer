@@ -9,7 +9,7 @@ function Hero() {
       >
         <div className="row align-items-center">
           <div className="col-md-1">
-            <i class="fa fa-chevron-left"></i>
+            <i className="fa fa-chevron-left"></i>
           </div>
           <div className="col-md-3">
             <div className="h3">iPhone X</div>
@@ -27,7 +27,7 @@ function Hero() {
             />
           </div>
           <div className="col-md-1 d-flex justify-content-end">
-            <i class="fa fa-chevron-right"></i>
+            <i className="fa fa-chevron-right"></i>
           </div>
         </div>
       </div>
