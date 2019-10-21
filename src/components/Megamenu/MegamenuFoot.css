@@ -1,0 +1,68 @@
+.megafoot--wrapper {
+  transform: translateY(-4rem);
+  height: 280px;
+  width: 100%;
+}
+
+.megamenufoot--box1 {
+  height: 100%;
+  background-image: url('../../assets/images/iPhone6s_discover_desktop_08_iOS9-1.png');
+  background-size: cover;
+}
+
+.megamenufoot--box--wrapper {
+  background-color: #ff6875;
+  padding: 30px 0 0 30px;
+  height: 280px;
+}
+.megamenufoot--box--top {
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+.megamenufoot--box--p {
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+}
+
+.megamenufoot--box--price {
+  font-size: 1.5rem;
+}
+
+.megamenufoot--box2 {
+  background-color: #f6f7f8;
+}
+
+.megamenufoot--box2__image {
+  width:14rem;
+}
+
+.megamenufoot--box__oculus {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.megamenufoot--box__price {
+  font-size: 1.2rem;
+}
+
+.megamenufoot--box3 {
+  background-color: #c1c8ce;
+  padding: 15px 0 0 15px;
+}
+
+.megamenufoot--box3__p {
+  padding-bottom: 2rem;
+}
+
+.megamenufoot--box3__image {
+  width: 12rem;
+}
+
+.white {
+  color: white;
+}
+
+.grey {
+  color: grey;
+}

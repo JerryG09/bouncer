@@ -1,11 +1,12 @@
-import React from "react"
+import React from 'react'
+import FooterTop from './FooterTop'
 
-function Footer () {
+const Footer = () => {
   return (
     <div>
-      <h6>Footer</h6>
+      <FooterTop />
     </div>
   )
 }
 
-export default Footer;
+export default Footer
