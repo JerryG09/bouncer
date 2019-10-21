@@ -5,11 +5,12 @@ import FooterBottom from './FootoerBottom'
 
 const Footer = () => {
   return (
-    <div>
+    <>
+      <FooterDivider />
       <FooterTop />
       <FooterDivider />
       <FooterBottom />
-    </div>
+    </>
   )
 }
 

@@ -4,7 +4,7 @@ import './FooterBottom.css'
 function FootoerBottom() {
   return (
     <div className="container">
-      <div className="row justify-content-between pb-4">
+      <div className="row justify-content-between pb-3">
         <div className="footer--bottom--left">
           <p> 2018 Ecommerce theme by www.bisenbaev.com</p>
         </div>
