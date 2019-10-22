@@ -20,3 +20,24 @@
   color: #c1c8ce;
   font-size: 0.8rem;
 }
+
+.bestseller--price__grey {
+  color: #c1c8ce;
+  text-decoration-line: line-through;
+}
+
+.bestseller--nav {
+  font-size: 1rem;
+}
+
+.bestseller--box--line {
+  height: 0.1rem;
+  background-color: rgb(198, 191, 191);
+  margin: 2rem 0 0.9rem 0;
+}
+
+.bestseller--more {
+  font-size: 0.8rem;
+  color: #33a0ff;
+  border-bottom: 3px solid #33a0ff;
+}

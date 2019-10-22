@@ -10,32 +10,33 @@ function BestSeller() {
       </div>
       <div className="d-flex justify-content-center pt-4">
         <div className="bestseller--nav__active">
-          <h4>All</h4>
+          <h4 className="bestseller--nav">All</h4>
         </div>
         <div className="pl-4 pr-4">
-          <h4>Mac</h4>
+          <h4 className="bestseller--nav">Mac</h4>
         </div>
         <div className="">
-          <h4>iPhone</h4>
+          <h4 className="bestseller--nav">iPhone</h4>
         </div>
         <div className="pl-4 pr-4">
-          <h4>iPad</h4>
+          <h4 className="bestseller--nav">iPad</h4>
         </div>
         <div className="">
-          <h4>iPod</h4>
+          <h4 className="bestseller--nav">iPod</h4>
         </div>
         <div className="pl-4">
-          <h4>Accessories</h4>
+          <h4 className="bestseller--nav">Accessories</h4>
         </div>
       </div>
       <div className="row bestseller--box pt-2">
         {bestSeller[0].bestSellerItems.map(item => (
           <div className="col-md-3 card-deck">
-            <div className="card pt-3 mt-5">
+            <div className="card pt-3 mt-3">
               <div className="d-flex justify-content-start">
                 {console.log(item)}
               </div>
               <img src={item.image} className="card-img-top" alt="" />
+              <div className="bestseller--box--line"></div>
               <div className="card-body d-flex flex-column justify-content-center text-center">
                 <h4 className="card-title bestseller--box__name">
                   {item.name}
@@ -48,12 +49,16 @@ function BestSeller() {
                   <i className="material-icons star--grey">star</i>
                 </div>
                 <h6 className="pt-3">
-                  <span className="pr-3">{item.price}</span>  <span>{item.price}</span>
+                  <span className="pr-3">{item.price}</span>{' '}
+                  <span className="bestseller--price__grey">{item.price}</span>
                 </h6>
               </div>
             </div>
           </div>
         ))}
+      </div>
+      <div className="d-flex justify-content-center mt-5">
+        <h4 className="bestseller--more">LOAD MORE</h4>
       </div>
     </div>
   );
