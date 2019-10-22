@@ -1,19 +1,23 @@
-.store--wrapper {
+.store--page--wrapper {
+  height: 100rem;
+}
+
+.store--hero--wrapper {
+  padding: 0 0 0 1.4rem;
+  background-color: #2e90e5;
+  border-radius: 6px;
+}
+
+.store--hero--wrapper-2 {
   height: 340px;
 }
 
-.store--hero--wrapper{
-  background-color: #2e90e5;
-  height: 100%;
-}
-
-.padding--right--7{
+.padding--right--7 {
   padding-right: 6rem;
 }
 
 .shop--now--border {
   border-bottom: 3px solid white;
-  
 }
 
 .hero--iphone--8 {
@@ -21,4 +25,68 @@
   background-image: url('../../assets/images/iPhone6s_discover_desktop_08_iOS9-1.png');
   background-size: cover;
   background-position: center;
+}
+
+.store--side--nav {
+  padding: 0 1.4rem 0 0;
+}
+
+.side--nav--container {
+  border-radius: 6px;
+}
+
+.side--nav--header {
+  font-size: 18px;
+  font-weight: 600;
+  color: #22262a;
+  line-height: 1.56;
+}
+
+.store--top--side {
+  background-color: #f6f7f8;
+  padding: 15px;
+}
+
+.side--nav--blue {
+  color: #33a0ff;
+}
+
+.side--nav--grey {
+  color: grey;
+}
+
+.side--bottom--margin {
+  margin-bottom: 1.5rem;
+}
+
+.store--side-1 {
+  background-color: #f6f7f8;
+  padding: 15px;
+}
+
+.progress--bar--side {
+  height: 3px;
+  background-color: #33a0ff;
+}
+
+.side--nav--icon1 {
+  color: #efdfdf;
+}
+
+.side--nav--icon2 {
+  color: #ff00b4;
+}
+
+.side--nav--icon3 {
+  color: #fff600;
+}
+
+.side--nav--icon4 {
+  color: #171717;
+}
+.side--nav--icon5 {
+  color: #fc3e39;
+}
+.side--nav--icon6 {
+  color: #006cff;
 }
