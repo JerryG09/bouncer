@@ -5,7 +5,6 @@ function Navbar() {
   return (
     <div className="container">
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
-        {/* <a href="#" className="navbar-brand"></a> */}
         <button
           className="navbar-toggler"
           type="button"
