@@ -11,13 +11,13 @@ function Rectangle1() {
             <p>Performance and design. Taken right to the edge</p>
             <h6>SHOP NOW</h6>
           </div>
-          <div className="col-md-6">
+          {/* <div className="col-md-6">
             <img
               src={require('../../assets/images/iPhone6s_discover_desktop_08_iOS9-1.png')}
               className="rectangle1--img"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

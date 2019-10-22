@@ -1,10 +1,10 @@
 import React from 'react';
-import MegaMenu from '../components/Megamenu/Megamenu'
-import BestSeller from '../components/Bestseller/BestSeller'
+import MegaMenu from './Megamenu/Megamenu'
+import BestSeller from './Bestseller/BestSeller'
 import Rectangle1 from './Bestseller/Rectangle1'
 
 
-function HomePage() {
+function Home() {
   return (
     <>
       <MegaMenu />
@@ -14,4 +14,4 @@ function HomePage() {
   )
 }
 
-export default HomePage
+export default Home
