@@ -1,15 +1,13 @@
 import React from 'react';
 import Header from './commons/header/Header';
 import Footer from './commons/footer/Footer';
-import Megamenu from './components/Megamenu/Megamenu';
-import BestSeller from './components/Bestseller/BestSeller'
+import HomePage from './components/HomePage'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Megamenu />
-      <BestSeller />
+      <HomePage />
       <Footer />
     </div>
   );

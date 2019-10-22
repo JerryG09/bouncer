@@ -4,14 +4,14 @@ import './FooterTop.css';
 function FooterTop() {
   return (
     <div className="container pt-3">
-      <div class="row pb-4">
+      <div className="row pb-4">
         <div className="col-md-4 pl-0">
           <h4 className="footerTop--bouncer pb-3">BOUNCER</h4>
-          <h4 className="pr-5 footer--line-height">
+          <p className="pr-5 footer--line-height">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quos
             vero optio, odio sed, magni iusto cumque maiores aperiam odit velit
             repellat est, ad esse.
-          </h4>
+          </p>
         </div>
         <div className="col-md-4 pl-0">
           <h5 className="footer--header pb-3">Follow Us</h5>
@@ -32,7 +32,6 @@ function FooterTop() {
       </div>
 
       <div className="horizontal--line p-0"></div>
-
 
       <div className="row pt-4">
         <div className="col-md-2 pl-0">

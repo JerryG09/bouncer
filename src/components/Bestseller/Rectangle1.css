@@ -1,0 +1,15 @@
+.rectangle1--wrapper {
+  background-color: #2e90e5;
+  height: 400px;
+  width: 100%;
+}
+
+.rectangle1--img{
+  width: 20rem;
+  top: -3rem;
+  position: relative;
+}
+
+.rectangle1--container {
+  height: 100%;
+}

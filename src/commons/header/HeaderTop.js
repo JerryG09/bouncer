@@ -4,12 +4,12 @@ function HeaderTop() {
   return (
     <div className="container-fluid">
       <div className="container">
-        <div className="row justify-content-between header--selection">
+        <div className="row justify-content-between header--selection pt-3">
           <div className="">
-            <select id="">
+            <select id="selection--menu">
               <option value="English">EN</option>
             </select>
-            <select id="">
+            <select id="selection--menu">
               <option value="dollars">USD</option>
             </select>
           </div>
@@ -19,13 +19,13 @@ function HeaderTop() {
               <i className="material-icons">person_outline</i>
               <h6 className="d-line">My profile</h6>
             </div>
-            <div className="d-flex justify-content-center align-items-center ml-3">
+            <div className="d-flex justify-content-center align-items-center ml-5">
               <i className="material-icons">shopping_basket</i>
               <h6>
                 0 item <span className="grey">$0.00</span>
               </h6>
             </div>
-            <div className="d-flex justify-content-center align-items-center ml-3">
+            <div className="d-flex justify-content-center align-items-center ml-5">
               <i className="fa fa-search"></i>
             </div>
           </div>

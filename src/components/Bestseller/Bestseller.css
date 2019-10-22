@@ -1,0 +1,22 @@
+.bestseller--nav__active {
+  color: #33a0ff;
+  border-bottom: 2px #33a0ff solid;
+}
+
+.bestseller--header {
+  font-size: 2rem;
+}
+
+.bestseller--box__name {
+  font-size: 0.6rem;
+}
+
+.star--color {
+  color: #ffc600;
+  font-size: 0.8rem;
+}
+
+.star--grey {
+  color: #c1c8ce;
+  font-size: 0.8rem;
+}

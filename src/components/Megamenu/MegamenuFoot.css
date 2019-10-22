@@ -18,11 +18,11 @@
 .megamenufoot--box--top {
   font-weight: 600;
   font-size: 1.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .megamenufoot--box--p {
   padding-right: 10rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0.2rem;
 }
 
 .megamenufoot--box--price {
@@ -52,7 +52,7 @@
 }
 
 .megamenufoot--box3__p {
-  padding-bottom: 2rem;
+  padding-bottom: 0.2rem;
 }
 
 .megamenufoot--box3__image {

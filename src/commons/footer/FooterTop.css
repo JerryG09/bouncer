@@ -1,5 +1,6 @@
 .footerTop--bouncer {
   font-size: 2rem;
+  color: grey;
 }
 
 
@@ -10,6 +11,7 @@
 
 .footer--line-height {
   line-height: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .horizontal--line {

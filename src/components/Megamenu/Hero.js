@@ -11,13 +11,15 @@ function Hero() {
           <div className="col-md-1">
             <i className="fa fa-chevron-left"></i>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 text-white">
             <div className="h3">iPhone X</div>
             <p>
               Lorem ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy
             </p>
-            <h3>MORE</h3>
+            <div className="">
+              <h4 className="hero--more">MORE</h4>
+            </div>
           </div>
           <div className="col-md-7">
             <img
