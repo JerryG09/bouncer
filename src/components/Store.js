@@ -1,9 +1,10 @@
 import React from 'react'
+import StoreLayout from './Store/StoreLayout'
 
 const Store = () => {
   return (
     <div>
-      <h2>Hello Store</h2>
+      <StoreLayout />
     </div>
   )
 }
