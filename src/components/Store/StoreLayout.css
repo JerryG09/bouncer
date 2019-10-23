@@ -1,5 +1,5 @@
 .store--page--wrapper {
-  height: 100rem;
+  height: 140rem;
 }
 
 .store--hero--wrapper {
@@ -89,4 +89,16 @@
 }
 .side--nav--icon6 {
   color: #006cff;
+}
+
+.store--inner--nav {
+  padding: 0 0 0 1.4rem;
+  border-radius: 6px;
+  background-color: #f6f7f8;
+  padding: 1rem 0;
+}
+
+.store--header--nav {
+  font-size: 10px;
+
 }

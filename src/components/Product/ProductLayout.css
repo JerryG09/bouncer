@@ -1,0 +1,25 @@
+.product--page--wrapper {
+  height: 100rem;
+  width: 100%;
+  background-color: aqua;
+}
+
+.product--details-wrapper {
+  padding: 0 1.6rem 0 0;
+  height: 100%;
+  background-color: rgb(199, 228, 228);
+}
+
+.product--details--container {
+  height: 100%;
+}
+
+.product--details--side {
+  background-color: rgb(4, 7, 7);
+  padding: 0 0 0 1.6rem;
+}
+
+.details--side--container {
+  background-color: rgb(167, 180, 89);
+  height: 100%;
+}

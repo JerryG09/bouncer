@@ -1,4 +1,5 @@
 import React from 'react';
+import bestSeller from './store_db';
 import './StoreLayout.css';
 
 function StoreLayout() {
@@ -87,7 +88,7 @@ function StoreLayout() {
         </div>
 
         <div className="col-md-9">
-          <div className="row store--hero--wrapper">
+          <div className="row store--hero--wrapper side--bottom--margin">
             <div className="col-md-6 store--hero--wrapper-2 text-white d-flex flex-column justify-content-center pl-5">
               <h2 className="pb-3">iPhone 8</h2>
               <p className="padding--right--7">
@@ -99,6 +100,65 @@ function StoreLayout() {
             </div>
             <div className="col-md-6 hero--iphone--8"></div>
           </div>
+
+          <div className="row justify-content-between store--inner--nav">
+            <div className="d-flex justify-content-between store--header--nav ml-3">
+              <div className="mr-5">
+                <p>13 Items</p>
+              </div>
+              <div className="d-flex justify-content-between">
+                <p className="mr-3">Sort By</p>
+                <select id="">
+                  <option value="">Name</option>
+                </select>
+              </div>
+              <div className="d-flex justify-content-between ml-3">
+                <p className="mr-3">Show</p>
+                <select id="">
+                  <option value="">12</option>
+                </select>
+              </div>
+            </div>
+            <div className="d-flex justify-content-between mr-3">
+              <i className="fa fa-store mr-3"></i>
+              <i className="fa fa-store"></i>
+            </div>
+          </div>
+
+          <div className="row store--content--display">
+            <div className="row justify-content-center bestseller--box pt-2"style={{width:'106rem'}}>
+              {bestSeller[0].bestSellerItems.map(item => (
+                <div className="col-md-4 card-deck" >
+                  <div className="card pt-3 mt-3" style={{width: "45rem"}}>
+                    <div className="d-flex justify-content-start">
+                      {console.log(item)}
+                    </div>
+                    <img src={item.image} className="card-img-top" alt="" />
+                    <div className="bestseller--box--line"></div>
+                    <div className="card-body d-flex flex-column justify-content-center text-center">
+                      <h4 className="card-title bestseller--box__name">
+                        {item.name}
+                      </h4>
+                      <div className="d-flex justify-content-center text-center pt-3">
+                        <i className="material-icons star--color">star</i>
+                        <i className="material-icons star--color">star</i>
+                        <i className="material-icons star--color">star</i>
+                        <i className="material-icons star--color">star</i>
+                        <i className="material-icons star--grey">star</i>
+                      </div>
+                      <h6 className="pt-3">
+                        <span className="pr-3">{item.price}</span>{' '}
+                        <span className="bestseller--price__grey">
+                          {item.price}
+                        </span>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
