@@ -80,8 +80,9 @@ function StoreLayout() {
               </div>
             </div>
 
-
-
+            <div className="store--side-1 d-flex justify-content-center pt-4">
+              <p>MORE</p>
+            </div>
           </div>
         </div>
 
