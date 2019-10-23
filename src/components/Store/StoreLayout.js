@@ -60,9 +60,27 @@ function StoreLayout() {
               </div>
             </div>
 
-            <div className="store--side-1 side--bottom--margin side--nav--container">
-              hi
+            <div className="store--top--side side--bottom--margin side--nav--container">
+              <h5 className="side--nav--header pb-3 pt-2">BRAND</h5>
+              <div className="d-flex justify-content-between">
+                <p>Apple</p>
+                <p className="side--nav--grey">99</p>
+              </div>
+              <div className="d-flex justify-content-between">
+                <p className="side--nav--blue">Lg</p>
+                <p className="side--nav--blue">99</p>
+              </div>
+              <div className="d-flex justify-content-between">
+                <p className="">Samsung</p>
+                <p className="side--nav--grey">99</p>
+              </div>
+              <div className="d-flex justify-content-between">
+                <p>Siemens</p>
+                <p className="side--nav--grey">99</p>
+              </div>
             </div>
+
+
 
           </div>
         </div>
