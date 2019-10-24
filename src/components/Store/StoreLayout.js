@@ -126,10 +126,10 @@ function StoreLayout() {
           </div>
 
           <div className="row store--content--display">
-            <div className="row justify-content-center bestseller--box pt-2"style={{width:'106rem'}}>
+            <div className="row justify-content-center bestseller--box pt-2">
               {bestSeller[0].bestSellerItems.map(item => (
                 <div className="col-md-4 card-deck" >
-                  <div className="card pt-3 mt-3" style={{width: "45rem"}}>
+                  <div className="card pt-3 mt-3">
                     <div className="d-flex justify-content-start">
                       {console.log(item)}
                     </div>
@@ -158,7 +158,7 @@ function StoreLayout() {
               ))}
             </div>
           </div>
-
+            <h1>hi</h1>
         </div>
       </div>
     </div>

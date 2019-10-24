@@ -6,7 +6,7 @@ const bestSeller = [
         name: 'Apple Mackbook Pro',
         star: '',
         price: '$499',
-        image: require('../../assets/images/50061505_575246-1.png'),
+        image: require('../../assets/images/50061505_575246-6@2x.png'),
         strikePrice: '$599',
       },
       {
@@ -64,6 +64,49 @@ const bestSeller = [
         price: '$499',
         image: require('../../assets/images/50061505_575246.png'),
         strikePrice: '$599',
+      },
+    ],
+    pitch: [
+      {
+        id: 1,
+        title: 'FREE SHIPPING',
+        details:
+          'lorem sau pop hdu hfg touhg bgs dauh geasg hooused hgsfe from the host of love that running from gong to bank from goin got come to come to come through for us in react'
+      },
+      {
+        id: 2,
+        title: '100% REFUND',
+        details:
+          'lorem sau pop hdu hfg touhg bgs dauh geasg hooused hgsfe from the host of love that running from gong to bank from goin got come to come to come through for us in react'
+      },
+      {
+        id: 3,
+        title: 'SUPPORT 24/7',
+        details:
+          'lorem sau pop hdu hfg touhg bgs dauh geasg hooused hgsfe from the host of love that running from gong to bank from goin got come to come to come through for us in react'
+      },
+    ],
+    latestnews: [
+      {
+        id: 1,
+        date: '01 Jan, 2015',
+        title: "Typesetting industry",
+        details: "lorem is coming to town on april fool for you",
+        image: require('../../assets/images/Rectangle1.png')
+      },
+      {
+        id: 2,
+        date: '01 Jan, 2015',
+        title: "Typesetting industry",
+        details: "lorem is coming to town on april fool for you",
+        image: require('../../assets/images/Rectangle2.png')
+      },
+      {
+        id: 3,
+        date: '01 Jan, 2015',
+        title: "Typesetting industry",
+        details: "lorem is coming to town on april fool for you",
+        image: require('../../assets/images/Rectangle3.png')
       }
     ],
   },
