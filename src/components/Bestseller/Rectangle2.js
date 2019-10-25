@@ -4,8 +4,8 @@ import bestSeller from './Bestseller_db'
 
 const Rectangle2 = () => {
   return (
-    <div className="container">
-      <div className="row rectangle2--wrapper">
+    <div className="container pt-5 pb-3">
+      <div className="row">
         {bestSeller[0].pitch.map(item => (
           <div className="col-md-4 d-flex flex-column justify-content-center">
             <div className="">
