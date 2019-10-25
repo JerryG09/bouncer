@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductLayout from './Product/ProductLayout'
+import ProductLayout from '../components/Product/ProductLayout'
 
 function Product() {
   return (

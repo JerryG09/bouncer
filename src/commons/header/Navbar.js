@@ -1,5 +1,6 @@
 import React from 'react';
 import './Bouncer.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -20,34 +21,34 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav m-auto">
             <li className="nav-item active">
-              <a href="#" className="nav-link">
+              <Link to="/" className="nav-link">
                 HOME
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <Link to="/store" className="nav-link">
                 STORE
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <Link className="nav-link">
                 IPHONE
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <Link className="nav-link">
                 IPAD
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <Link className="nav-link">
                 MACBOOK
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <Link className="nav-link">
                 ACCESSORIES
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

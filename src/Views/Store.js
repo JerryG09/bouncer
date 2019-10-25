@@ -1,5 +1,5 @@
 import React from 'react'
-import StoreLayout from './Store/StoreLayout'
+import StoreLayout from '../components/Store/StoreLayout'
 
 const Store = () => {
   return (
