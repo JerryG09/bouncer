@@ -17,7 +17,7 @@ function LatestNews() {
               </div>
               <div className="col-md-7 pl-4">
                 <p>{item.date}</p>
-                <h5>{item.title}</h5>
+                <h6 className="pb-2">{item.title}</h6>
                 <p>{item.details}</p>
               </div>
             </div>
