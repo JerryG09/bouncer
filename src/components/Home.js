@@ -5,6 +5,7 @@ import Rectangle1 from './Bestseller/Rectangle1'
 import Rectangle2 from './Bestseller/Rectangle2'
 import LatestNews from './Bestseller/LatestNews'
 import FeaturedProducts from './Bestseller/FeaturedProducts'
+import InputForm from './utils/InputForm'
 
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
       <Rectangle2 />
       <LatestNews />
       <FeaturedProducts />
+      <InputForm />
     </>
   )
 }
