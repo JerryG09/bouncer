@@ -1,7 +1,7 @@
 import React from 'react';
 import './FeaturedProducts.css';
 import bestSeller from '../../data/data';
-import Stars from '../utils/Stars';
+import Stars from '../Utils/Stars';
 function FeaturedProducts() {
   return (
     <div className="container pt-5 pb-3">
