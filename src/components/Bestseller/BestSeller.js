@@ -2,7 +2,10 @@ import React from 'react';
 import './Bestseller.css';
 import bestSeller from './Bestseller_db';
 
-function BestSeller() {
+function BestSeller(props) {
+  const goToProductDetails = id => {
+    props.history.push(`/product/${id}`);
+  };
   return (
     <div className="container pb-5">
       <div className="d-flex justify-content-center">
@@ -30,7 +33,10 @@ function BestSeller() {
       </div>
       <div className="row bestseller--box pt-2">
         {bestSeller[0].bestSellerItems.map(item => (
-          <div className="col-md-3 card-deck">
+          <div
+            className="col-md-3 card-deck"
+            onClick={() => goToProductDetails(item.id)}
+          >
             <div className="card pt-3 mt-3">
               <div className="d-flex justify-content-start">
                 {console.log(item)}
